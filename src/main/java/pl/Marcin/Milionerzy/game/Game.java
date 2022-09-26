@@ -19,7 +19,7 @@ public class Game {
     private final Scanner scanner = new Scanner(System.in);
     public void game() {
 
-        System.out.println("\nYou started the game. Good luck ;)");
+        System.out.println("\nYou started the game. Good luck ;)\n");
         gameLoop = true;
         String categoryLevel;
         List<Question> gameList = new ArrayList<>();
@@ -98,6 +98,7 @@ public class Game {
                 } else {
                     System.out.println("Wrong answer");
                     System.out.println("YOU LOSE!\n");
+                    System.out.println("Correct answer: " + question.getCorrectAnswerNr() + "\n");
                     try {
                         TimeUnit.SECONDS.sleep(2);
                     } catch (InterruptedException e) {
