@@ -10,4 +10,3 @@ MILIONERZY APP
 - dodanie funkcji usuwania pytań
 - logowanie się do sekcji admin przy pomocy hasła
 - wyświetlanie odpowiedzi w losowej kolejności
-- po wskazaniu błędnej odpowiedzi wyświetlenie poprawnej odpowiedzi
