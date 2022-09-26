@@ -1,16 +1,13 @@
 MILIONERZY APP
-## Plan:
-- wybierz kategorię -> losowo pojawią się np. dwie kategorie
-- po wybraniu kategorii program wylosuje pytanie z danej kategorii
-- wyświetlone zostanie pytanie i 3-4 możliwe odpowiedzi z oznaczeniami abcd
-- użytkownik wprowadzi oznaczenie i program wyświetli czy jest ok czy nie
+## Specyfikacja:
+- Aplikacja jest podzielona na dwie sekcje: Game i Admin
+- Sekcja Game odpowiada za rozgrywkę, a sekcja Admin za sprawdzanie listy pytań oraz ich dodawanie
+- Rozgrywka podzielona jest na trzy grupy pytań, każda o innym poziomie trudności. Aby wygrać, gracz musi odpowiedzieć poprawnie na 9 pytań - po 3 z każdej kategorii
+- W sekcji Admin jest możliwość podglądu listy pytań oraz dodania pytania
 
-## Rozbudowa:
-- można dodać sumę punktów
-- nie powtarzanie się kategorii i pytań
-
-## Notatki:
-- zapis do pliku możemy zrobić najpierw jako obiekt (gettery i settery), a potem dodać do listy
-- kategoria jako array[0] pytanie jako array[1] itd
-- każde pytanie ma poziom trudności i w zalezności od wyniku takie jest pytanie
-- 
+## Możliwości rozbudowy aplikacji:
+- powiększenie bazy pytań i przeniesienie jej do bazy danych
+- dodanie funkcji usuwania pytań
+- logowanie się do sekcji admin przy pomocy hasła
+- wyświetlanie odpowiedzi w losowej kolejności
+- po wskazaniu błędnej odpowiedzi wyświetlenie poprawnej odpowiedzi
