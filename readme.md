@@ -6,6 +6,7 @@ MILIONERZY APP
 - W sekcji Admin jest możliwość podglądu listy pytań oraz dodania pytania
 
 ## Możliwości rozbudowy aplikacji:
+- napisanie testów, np. testy funkcji dodawania pytania, wyświetlania listy pytań itp.
 - powiększenie bazy pytań i przeniesienie jej do bazy danych
 - dodanie funkcji usuwania pytań
 - logowanie się do sekcji admin przy pomocy hasła

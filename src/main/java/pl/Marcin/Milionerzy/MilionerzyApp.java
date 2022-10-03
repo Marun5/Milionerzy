@@ -14,12 +14,12 @@ public class MilionerzyApp {
     }
 
     private void start() {
-        System.out.println("--------------");
+        System.out.println("***************");
         System.out.println("WELCOME\n");
         System.out.println("Enter your name:");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
-        System.out.println("\n---------------");
+        System.out.println("\n***************");
         System.out.println("Hi " + name + " :)");
     }
 
