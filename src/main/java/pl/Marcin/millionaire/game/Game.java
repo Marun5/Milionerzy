@@ -1,7 +1,7 @@
-package pl.Marcin.Milionerzy.game;
+package pl.Marcin.millionaire.game;
 
-import pl.Marcin.Milionerzy.Question;
-import pl.Marcin.Milionerzy.dao.QuestionDao;
+import pl.Marcin.millionaire.question.Question;
+import pl.Marcin.millionaire.dao.QuestionDao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +17,7 @@ public class Game {
         questionDao = new QuestionDao();
     }
     private final Scanner scanner = new Scanner(System.in);
+
     public void game() {
 
         System.out.println("\nYou started the game. Good luck ;)\n");
@@ -59,7 +60,6 @@ public class Game {
         Stream<Question> questions = questionDao.findQuestionsFromCategory(category);
         List<Question> questionList = questionDao.getArrayFromStream(questions);
 
-        //sprawdzenie czy się nie powtórzyło
         Question question;
         int x;
         do {

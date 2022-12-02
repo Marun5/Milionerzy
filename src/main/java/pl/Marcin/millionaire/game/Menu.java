@@ -1,4 +1,4 @@
-package pl.Marcin.Milionerzy.game;
+package pl.Marcin.millionaire.game;
 
 
 import java.util.Scanner;
@@ -20,25 +20,11 @@ public class Menu {
             option = scanner.next().charAt(0);
 
             switch (option) {
-                case 'a':
-                    game.game();
-                    break;
-
-                case 'b':
-                    admin.userInput();
-                    break;
-
-                case 'c':
-                    System.out.println("See you soon!");
-                    break;
-
-                default:
-                    System.out.println("Choose the correct option");
-                    break;
+                case 'a' -> game.game();
+                case 'b' -> admin.userInput();
+                case 'c' -> System.out.println("See you soon!");
+                default -> System.out.println("Choose the correct option");
             }
         } while (option != 'c');
-
     }
-
-
 }

@@ -1,4 +1,4 @@
-package pl.Marcin.Milionerzy;
+package pl.Marcin.millionaire.question;
 
 public class Question {
 
