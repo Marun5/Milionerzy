@@ -1,6 +1,6 @@
 package pl.Marcin.Milionerzy.game;
 
-import pl.Marcin.Milionerzy.Question;
+import pl.Marcin.Milionerzy.question.Question;
 import pl.Marcin.Milionerzy.dao.QuestionDao;
 
 import java.util.List;
@@ -28,32 +28,23 @@ public class Admin {
     }
 
     private void handle(String line) {
-
-        switch(line){
-            case "list":
+        switch (line) {
+            case "list" -> {
                 System.out.println("\nQuestion list");
-                List<Question> questions = questionDao.findAll();
+                List<Question> questions = questionDao.getQuestions();
                 questions.forEach(System.out::println);
-                break;
-
-            case "add":
-                addQuestion();
-                break;
-
-            case "exit":
-                userInputLoop = false;
-                break;
-
-            default:
-                System.out.println("Wrong command");
+            }
+            case "add" -> addQuestion();
+            case "exit" -> userInputLoop = false;
+            default -> System.out.println("Wrong command");
         }
     }
 
     private void addQuestion(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter category:");
+        System.out.println("Enter category level: (1, 2 or 3)");
         String category = scanner.nextLine();
-        System.out.println("Enter question:");
+        System.out.println("Enter question name:");
         String question = scanner.nextLine();
         System.out.println("Enter 1st answer:");
         String answer1 = scanner.nextLine();
@@ -63,11 +54,10 @@ public class Admin {
         String answer3 = scanner.nextLine();
         System.out.println("Enter 4th answer:");
         String answer4 = scanner.nextLine();
-        System.out.println("Enter number corresponding to correct answer:");
+        System.out.println("Enter number corresponding to correct answer: (1, 2, 3 or 4)");
         String correctAnswerNr = scanner.nextLine();
 
         questionDao.add(new Question(category, question, answer1, answer2, answer3, answer4, correctAnswerNr));
-
     }
 
 }

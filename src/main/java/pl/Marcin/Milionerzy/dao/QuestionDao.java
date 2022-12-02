@@ -2,7 +2,7 @@ package pl.Marcin.Milionerzy.dao;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import pl.Marcin.Milionerzy.Question;
+import pl.Marcin.Milionerzy.question.Question;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -17,8 +17,8 @@ public class QuestionDao {
     public QuestionDao() {
         this.objectMapper = new ObjectMapper();
     }
-    private List<Question> getQuestions() {
 
+    public List<Question> getQuestions() {
         try {
             return objectMapper.readValue(Files.readString(Paths.get("./questions.txt")), new TypeReference<>() {
             });
@@ -27,10 +27,6 @@ public class QuestionDao {
             System.out.println("Error on getQuestions");
             return new ArrayList<>();
         }
-    }
-
-    public List<Question> findAll() {
-        return getQuestions();
     }
 
     public Stream<Question> findQuestionsFromCategory(String category) {
@@ -63,42 +59,4 @@ public class QuestionDao {
             System.out.println("Error on saveQuestions");
         }
     }
-
-//    public Question findCategory(String category) {
-//
-//        if (findOneByCategory(category).isPresent()) {
-//            return findOneByCategory(category).get();
-//        } else {
-//            return null;
-//        }
-//    }
-//
-//    public List<Question> categoryList(String category) {
-//        if (findOneByCategory(category).isPresent()) {
-//            return findOneByCategory(category).stream().toList();
-//        } else {
-//            return null;
-//        }
-//    }
-//
-//    private Optional<Question> findOneByCategory(String category) {
-//        return getQuestions().stream()
-//                .filter(c -> c.getCategory().equals(category))
-//                .findAny();
-//
-//    }
-//
-//    public Question findQuestion(String questionName) {
-//        if (findOneByQuestionName(questionName).isPresent()) {
-//            return findOneByQuestionName(questionName).get();
-//        } else {
-//            return null;
-//        }
-//    }
-//
-//    private Optional<Question> findOneByQuestionName(String questionName) {
-//        return getQuestions().stream()
-//                .filter(c -> c.getQuestion().equals(questionName))
-//                .findAny();
-//    }
 }
