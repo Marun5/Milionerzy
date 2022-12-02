@@ -11,3 +11,7 @@ MILIONERZY APP
 - dodanie funkcji usuwania pytań
 - logowanie się do sekcji admin przy pomocy hasła
 - wyświetlanie odpowiedzi w losowej kolejności
+
+<h1 align="center" id="title">Millionaire App</h1>
+
+<p id="description">Project of the popular game show "Who Wants To Be a Millionaire?"</p>

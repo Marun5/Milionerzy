@@ -1,8 +1,8 @@
-package pl.Marcin.Milionerzy.dao;
+package pl.Marcin.millionaire.dao;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import pl.Marcin.Milionerzy.question.Question;
+import pl.Marcin.millionaire.question.Question;
 
 import java.io.IOException;
 import java.nio.file.Files;

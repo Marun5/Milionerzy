@@ -1,13 +1,13 @@
-package pl.Marcin.Milionerzy;
+package pl.Marcin.millionaire;
 
-import pl.Marcin.Milionerzy.game.Menu;
+import pl.Marcin.millionaire.game.Menu;
 
 import java.util.Scanner;
 
-public class MilionerzyApp {
+public class MillionaireApp {
 
     public static void main(String[] args) {
-        new MilionerzyApp().start();
+        new MillionaireApp().start();
         Menu menu = new Menu();
         menu.menu();
 

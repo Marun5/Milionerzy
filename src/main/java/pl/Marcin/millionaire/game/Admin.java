@@ -1,7 +1,7 @@
-package pl.Marcin.Milionerzy.game;
+package pl.Marcin.millionaire.game;
 
-import pl.Marcin.Milionerzy.question.Question;
-import pl.Marcin.Milionerzy.dao.QuestionDao;
+import pl.Marcin.millionaire.question.Question;
+import pl.Marcin.millionaire.dao.QuestionDao;
 
 import java.util.List;
 import java.util.Scanner;

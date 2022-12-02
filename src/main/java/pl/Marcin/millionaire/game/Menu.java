@@ -1,4 +1,4 @@
-package pl.Marcin.Milionerzy.game;
+package pl.Marcin.millionaire.game;
 
 
 import java.util.Scanner;
