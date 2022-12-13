@@ -7,21 +7,19 @@
 
 Application has two sections: game and admin. Game section is divided into three stages of questions, each with a different level of difficulty. In admin section you can see and add new questions.
 
-<h2></h2>
+<h2>About me!</h2>
 <h1 align="center">👋 Hi! I'm Marcin 👋</h1>
-I'm a self-taught Java Developer and an engineer. Eager to take new opportunities in IT and improve myself. Ready to learn and to give my best.
+<h3 align="center">I'm Java Developer and an engineer. Eager to take new opportunities in IT and improve myself. Ready to learn and to give my best</h3>
 
-- 👨‍💻 All of my projects are available at [github](https://github.com/Marun5?tab=repositories)
 
-- 📫 You can reach me via email: **mkulczycki@o2.pl** or LinkedIn:
-  <a href="https://linkedin.com/in/markul" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" title="LinkedIn" height="30" width="40" /></a>
+- 👨‍💻 All of my projects are available at [my github repository](https://github.com/Marun5?tab=repositories)
 
-<h3 align="left">Worked with:</h3>
-<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" title="Java"></code>
-<code><img height="40" src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" title="Spring Boot"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" title="PostgreSQL"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="HTML"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" title="CSS"></code>
-<code><img height="40" src="https://user-images.githubusercontent.com/113288219/207062251-a37329d8-4709-4a02-a019-9e3dac34dbc0.png" title="Thymeleaf"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" title="Git"></code>
-<code><img height="40" src="https://user-images.githubusercontent.com/113288219/207068990-53efdf46-ea10-4994-bd47-c724e53d47f3.png" title="Docker"></code>
+- 📫 How to reach me **mkulczycki@o2.pl**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/markul" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="markul" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://https://user-images.githubusercontent.com/33158051/103466606-760a4000-4d14-11eb-9941-2f3d00371471.png" alt="spring boot" width="40" height="40"/> </a> </p>
